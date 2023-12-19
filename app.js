@@ -16,7 +16,6 @@ app.use(`${api}product`, productRouter);
 
 mongoose
   .connect("mongodb+srv://user:user1234@cluster0.2yhkubr.mongodb.net/", {
-    useNewUrlParser: true,
     dbName: "coffeeroster",
   })
   .then(() => {
